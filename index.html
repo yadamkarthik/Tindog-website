@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <!-- in order to use fonts from fontawesome -->
+  <script defer="" src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
+
+
+
+
+  <style>
+    #title {
+      background-color: #ff4c68;
+      color: #fff;
+    }
+
+    h1 {
+
+      font-size: 3.5rem;
+      line-height: 1.5;
+    }
+
+    h3 {
+      color: black;
+      font-weight: bold;
+    }
+
+    h2 {
+      color: #fff;
+      font-family: "montserrat-bold"
+    }
+
+    h2 {
+      font-size: 3.5rem;
+      line-height: 1.5;
+
+    }
+
+    .container-fluid {
+      padding: 3% 20%;
+    }
+
+    body {
+      font-family: "montserrat";
+    }
+
+    .navbar-brand {
+      font-family: "ubuntu";
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .navbar {
+      padding: 0 0 4.5rem;
+    }
+
+    .nav-item {
+      padding: 0 18px;
+    }
+
+    .nav-link {
+      font-family: "montserrat-light";
+      font-size: 1.2rem;
+    }
+
+    .download-button {
+      margin: 5% 3% 5% 0;
+    }
+
+    .title-image {
+      width: 100%;
+      padding: 50px;
+    }
+
+    #features {
+      padding: 7% 15%;
+    }
+
+
+    .feature-box {
+      text-align: center;
+      padding: 5%;
+    }
+
+    p {
+      color: #8f8f8f;
+      font-size: 22px;
+    }
+
+    .icon {
+      margin-bottom: 1rem;
+      color: #ef8172;
+    }
+
+    .icon:hover {
+      color: #ff4c68;
+    }
+
+    #testimonials {
+
+      text-align: center;
+      background-color: #ef8172;
+      color: #fff;
+
+    }
+
+
+    .testimonials-images {
+      width: 10%;
+      border-radius: 100%;
+      margin: 20px;
+    }
+
+    #mediaa {
+      background-color: #ef8172;
+      text-align: center;
+      padding-bottom: 3%;
+    }
+
+    .mediaa-logo {
+      width: 15%;
+      margin: 20px 20px 50px;
+    }
+
+    .carousel-item {
+      padding: 7% 15%;
+    }
+
+    .section-heading {
+      text-align: center;
+      color: #000;
+    }
+
+    #pricing {
+      padding: 100px;
+      text-align: center;
+    }
+
+    .price-text {
+      color: black;
+    }
+
+    .pricing-column {
+      padding: 3% 2%;
+    }
+
+    /* media query css makes changes to given conditions vid-84 */
+
+    /* for moblie below 426px in my pc the title part will be center aligned */
+    @media (max-width:426px) {
+      #title {
+        text-align: center;
+      }
+    }
+
+    #cta {
+      background-color: #ff4c68;
+      padding: 7% 15%;
+      text-align: center;
+
+
+    }
+
+
+
+
+    .style-h3-cta-sec {
+      color: white;
+      font-weight: lighter;
+
+      line-height: 1.5;
+      font-size: 3.1rem;
+      font-family: "Montserrat-Black";
+    }
+
+    #footer {
+      background-color: #fff;
+      padding: 7% 18%;
+      text-align: center;
+    }
+
+    .social-icon {
+      margin: 20px 10px;
+      color: #ef8172;
+      font-size: 30px;
+    }
+  </style>
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+  <section id="title">
+
+    <!--inline css-->
+    <!-- container-fluid is a class under div means the content present in it
+    will alligned accordingly specified-->
+
+
+    <div class="container-fluid">
+
+
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Tindog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Grid system for responsive vid-70 -->
+
+      <div class="row">
+
+        <div class=lg-6>
+          <h1> Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-light btn-lg download-button"><i class="fab fa-apple"></i> MAC</button>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-google-play"></i> ANDROID</button>
+
+
+        </div>
+
+        <div class=lg-6>
+          <img class="title-image" src="https://i2-prod.dailyrecord.co.uk/incoming/article5974895.ece/ALTERNATES/s615/Screen-Shot-2015-06-30-at-132751.png" alt="iphone-mockup">
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+
+      <div class="feature-box col-lg-4">
+
+        <i class=" icon fas fa-check fa-4x"></i>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
+
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class=" icon fas fa-bullseye fa-4x"></i>
+        <h3>Elite Clientele</h3>
+        <p>We have all the dogs, the greatest dogs.</p>
+
+      </div>
+
+      <div class="icon feature-box col-lg-4">
+        <i class=" icon fas fa-heart fa-4x"></i>
+        <h3>Guaranteed to work.</h3>
+        <p>Find the love of your dog's life or your money back.</p>
+
+      </div>
+
+
+
+    </div>
+
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+  <!-- Testimonials  for sildes refer bootstrap documentaion-->
+
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+
+
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonials-images"
+            src="data:image/jpeg;base64,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"
+            alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+
+
+        <div class="carousel-item container-fluid">
+
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-image" src="C:\Users\yadam karthik\AppData\Local\Temp\Rar$DIa0.667\lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+
+      </div>
+
+      <!-- carousel-slide-refer bootstrap docum , vid-80,81 -->
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+
+
+    </div>
+
+  </section>
+
+
+
+
+
+
+  <!-- mediaa -->
+
+  <section id="mediaa">
+
+    <img class="mediaa-logo" src="C:\Users\yadam karthik\AppData\Local\Temp\Rar$DIa0.223\TechCrunch.png" alt="tc">
+    <img class="mediaa-logo" src="C:\Users\yadam karthik\AppData\Local\Temp\Rar$DIa0.134\tnw.png" alt="tnw">
+    <img class="mediaa-logo" src="C:\Users\yadam karthik\AppData\Local\Temp\Rar$DIa0.537\bizinsider.png" alt="biz-insider">
+    <img class="mediaa-logo" src="C:\Users\yadam karthik\AppData\Local\Temp\Rar$DIa0.233\mashable.png" alt="mashable">
+
+
+
+
+  </section>
+
+
+  <!-- Pricing -->
+
+
+
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
+    <p style="text-align:center;">Simple and affordable price plans for your and your dog.</p>
+
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <!-- card-title cardbody-contentbody a pre defined code for a small box containing header and text -->
+        <div class="card">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$49 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$99 / mo</h2>
+            <p>Pirority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="style-h3-cta-sec">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-light btn-lg download-button"><i class="fab fa-apple"></i> MAC</button>
+    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-google-play"></i> ANDROID</button>
+
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class="fab fa-facebook-f social-icon"></i>
+    <i class="fab fa-instagram  social-icon"></i>
+    <i class="fas fa-envelope social-icon"></i>
+    <p>© Copyright 2018 TinDog</p>
+
+  </footer>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+
+</html>
